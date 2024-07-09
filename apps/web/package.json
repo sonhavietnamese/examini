@@ -5,7 +5,7 @@
 	"scripts": {
 		"dev:inngest": "npx inngest-cli dev",
 		"dev": "next dev",
-		"build": "bunx prisma db push && bunx prisma generate && next build",
+		"build": "bunx prisma generate && next build",
 		"start": "next start",
 		"lint": "next lint",
 		"db:push": "bunx prisma db push"
