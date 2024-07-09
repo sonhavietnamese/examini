@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // output: 'export',
-  experimental: {
-    serverComponentsExternalPackages: ['sharp', 'onnxruntime-node'],
-  },
-};
+	// output: 'export',
+	experimental: {
+		serverComponentsExternalPackages: ['sharp', 'onnxruntime-node'],
+	},
+}
 
-export default nextConfig;
+export default nextConfig
